@@ -12,6 +12,13 @@ Two one-line changes to Combination Sum carry all the new semantics. Recurse wit
 
 **Complexity:** O(2ⁿ) worst case (output-bound), O(n) depth.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
